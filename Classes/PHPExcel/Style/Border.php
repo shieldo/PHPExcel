@@ -128,15 +128,15 @@ class PHPExcel_Style_Border extends PHPExcel_Style_Supervisor implements PHPExce
 				throw new PHPExcel_Exception('Cannot get shared component for a pseudo-border.');
 				break;
 			case '_bottom':
-				return $this->_parent->getSharedComponent()->getBottom();		break;
+				return $this->_parent->getSharedComponent()->getBottom();
 			case '_diagonal':
-				return $this->_parent->getSharedComponent()->getDiagonal();		break;
+				return $this->_parent->getSharedComponent()->getDiagonal();
 			case '_left':
-				return $this->_parent->getSharedComponent()->getLeft();			break;
+				return $this->_parent->getSharedComponent()->getLeft();
 			case '_right':
-				return $this->_parent->getSharedComponent()->getRight();		break;
+				return $this->_parent->getSharedComponent()->getRight();
 			case '_top':
-				return $this->_parent->getSharedComponent()->getTop();			break;
+				return $this->_parent->getSharedComponent()->getTop();
 
 		}
 	}

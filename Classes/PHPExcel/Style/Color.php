@@ -115,11 +115,11 @@ class PHPExcel_Style_Color extends PHPExcel_Style_Supervisor implements PHPExcel
 	{
 		switch ($this->_parentPropertyName) {
 			case '_endColor':
-				return $this->_parent->getSharedComponent()->getEndColor();		break;
+				return $this->_parent->getSharedComponent()->getEndColor();
 			case '_color':
-				return $this->_parent->getSharedComponent()->getColor();		break;
+				return $this->_parent->getSharedComponent()->getColor();
 			case '_startColor':
-				return $this->_parent->getSharedComponent()->getStartColor();	break;
+				return $this->_parent->getSharedComponent()->getStartColor();
 		}
 	}
 
